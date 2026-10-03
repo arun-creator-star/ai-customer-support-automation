@@ -1,0 +1,107 @@
+# AI Customer Support Automation
+
+## Project Overview
+
+This is a no-code AI customer support automation project.
+
+The workflow receives customer feedback through Google Forms, uses AI to analyze and classify the message, stores the results in Google Sheets, and routes the request to the appropriate team based on the category.
+
+## Workflow
+
+Google Forms
+↓
+AI by Zapier
+↓
+Google Sheets
+↓
+Conditional Paths
+↓
+Product / Delivery / Payment / Unclear
+↓
+Gmail Notification
+
+## AI Analysis
+
+The AI analyzes each customer message and identifies:
+
+- Category
+- Main Issue
+- Priority
+- Sentiment
+- Summary
+
+### Categories
+
+- Product
+- Delivery
+- Payment
+- Unclear
+
+## Conditional Routing
+
+The workflow uses conditional paths to route customer issues.
+
+- Product → Product Team
+- Delivery → Delivery Team
+- Payment → Payment Team
+- Unclear → Customer Support
+
+Email notifications are used to simulate team routing in this portfolio project.
+
+## Tools Used
+
+- Google Forms
+- Zapier
+- AI by Zapier
+- Google Sheets
+- Gmail
+- GitHub
+
+## Skills Demonstrated
+
+- Prompt Engineering
+- AI Classification
+- Data Extraction
+- Conditional Logic
+- Workflow Automation
+- Data Mapping
+- AI-based Routing
+- Testing and Validation
+- No-Code Integration
+
+## Example Workflow
+
+Customer submits:
+
+> My phone arrived today, but the screen is cracked.
+
+AI analyzes the message:
+
+- Category: Product
+- Main Issue: Phone screen is cracked
+- Priority: Based on defined workflow rules
+- Sentiment: Negative
+- Summary: Customer received a phone with a cracked screen.
+
+The workflow then routes the request to the Product Team email.
+
+## Testing
+
+The workflow was tested with multiple customer submissions.
+
+Different categories were successfully routed to their corresponding email destinations.
+
+Tested routes:
+
+- Product
+- Delivery
+- Payment
+- Unclear
+
+## Project Goal
+
+The goal of this project is to demonstrate how no-code AI can be used to automate customer support classification, data organization, and team routing without writing traditional code.
+
+## Privacy Note
+
+Personal email addresses and private customer information are not included in this public portfolio documentation.
